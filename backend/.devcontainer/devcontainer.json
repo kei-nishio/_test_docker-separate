@@ -28,6 +28,5 @@
   },
   "forwardPorts": [8000],
   "remoteUser": "root",
-  "mounts": ["source=${localWorkspaceFolder},target=/usr/src/main,type=bind,consistency=cached"],
-  "postCreateCommand": "Welcome to FastAPI Backend"
+  "postCreateCommand": "echo 'Welcome to FastAPI Backend!!!'"
 }

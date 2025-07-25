@@ -23,6 +23,5 @@
   },
   "forwardPorts": [8501],
   "remoteUser": "root",
-  "mounts": ["source=${localWorkspaceFolder},target=/usr/src/app,type=bind,consistency=cached"],
-  "postCreateCommand": "Welcome to Streamlit Frontend"
+  "postCreateCommand": "echo 'Welcome to Streamlit Frontend!!!'"
 }
