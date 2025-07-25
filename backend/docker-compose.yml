@@ -6,10 +6,10 @@ services:
       context: .
       dockerfile: Dockerfile
     volumes:
-      - .:/workspace
+      - .:/usr/src/main
     ports:
       - '8000:8000'
     environment:
-      - PYTHONPATH=/workspace
-    working_dir: /workspace
+      - PYTHONPATH=/usr/src/main
+    working_dir: /usr/src/main
     command: uvicorn main:app --host 0.0.0.0 --port 8000 --reload
