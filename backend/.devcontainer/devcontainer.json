@@ -7,16 +7,22 @@
   "customizations": {
     "vscode": {
       "extensions": [
-        "ms-python.python",
-        "ms-python.black-formatter",
-        "ms-python.isort",
-        "ms-python.flake8",
+        "bierner.markdown-mermaid",
+        "charliermarsh.ruff",
+        "esbenp.prettier-vscode",
         "github.copilot-chat",
         "github.vscode-github-actions",
+        "mechatroner.rainbow-csv",
         "mhutchie.git-graph",
-        "bierner.markdown-mermaid",
-        "esbenp.prettier-vscode",
-        "mechatroner.rainbow-csv"
+        "ms-python.black-formatter",
+        "ms-python.flake8",
+        "ms-python.isort",
+        "ms-python.python",
+        "ms-toolsai.jupyter",
+        "ms-toolsai.jupyter-keymap",
+        "ms-toolsai.jupyter-renderers",
+        "ms-toolsai.vscode-jupyter-cell-tags",
+        "ms-toolsai.vscode-jupyter-slideshow"
       ]
     }
   },
