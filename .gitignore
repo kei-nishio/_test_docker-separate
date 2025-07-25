@@ -1,0 +1,19 @@
+# Python関連
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+*.venv
+.env
+.venv
+
+# Docker関連
+*.log
+docker-compose.override.yml
+
+# VSCode関連
+.vscode/
+
+# その他
+.DS_Store
