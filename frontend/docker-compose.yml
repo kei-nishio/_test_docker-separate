@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/app
+    ports:
+      - '8501:8501'
+    environment:
+      - BACKEND_URL=http://host.docker.internal:8000
+    restart: unless-stopped
+    extra_hosts:
+      - 'host.docker.internal:host-gateway'
